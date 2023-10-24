@@ -49,7 +49,7 @@ conda activate language-detection-env
 conda install -c conda-forge scikit-learn
 conda install -c conda-forge pandas
 conda install -c conda-forge matplotlib
-
+```
 ## Usage
 
 ### Data
