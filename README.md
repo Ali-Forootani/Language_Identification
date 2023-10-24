@@ -50,4 +50,21 @@ conda install -c conda-forge scikit-learn
 conda install -c conda-forge pandas
 conda install -c conda-forge matplotlib
 
+## Usage
+
+### Data
+
+The code expects two CSV files: `train.csv` and `test.csv`, which contain the training and testing data, respectively.
+
+### Preprocessing
+
+The script performs text preprocessing, including the removal of symbols, numbers, and English letters to prepare the text data for training.
+
+### Training
+
+The model is trained using a logistic regression classifier and a TF-IDF vectorizer. It learns to classify text into various languages using the training data.
+
+### Testing
+
+The model's accuracy is evaluated using the test data, and a confusion matrix is displayed to assess the classification results.
 
