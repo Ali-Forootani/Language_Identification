@@ -50,6 +50,14 @@ conda install -c conda-forge scikit-learn
 conda install -c conda-forge pandas
 conda install -c conda-forge matplotlib
 ```
+
+
+```sh
+npm install --production
+NODE_ENV=production node app
+```
+
+
 ## Usage
 
 ### Data
