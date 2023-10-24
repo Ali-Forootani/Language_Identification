@@ -46,6 +46,8 @@ You can install the required Python packages using `conda`. If you don't have co
 ```bash
 conda create -n language-detection-env python=3.x
 conda activate language-detection-env
-conda install pandas scikit-learn seaborn matplotlib
+conda install -c conda-forge scikit-learn
+conda install -c conda-forge pandas
+conda install -c conda-forge matplotlib
 
 
