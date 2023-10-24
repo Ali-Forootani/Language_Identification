@@ -52,17 +52,12 @@ conda install -c conda-forge matplotlib
 ```
 
 
-```sh
-npm install --production
-NODE_ENV=production node app
-```
-
 
 ## Usage
 
 ### Data
 
-The code expects two CSV files: `train.csv` and `test.csv`, which contain the training and testing data, respectively.
+The code expects two CSV files: `train.csv` and `Language Detection.csv`, which contain the training and testing data, respectively.
 
 ### Preprocessing
 
