@@ -36,7 +36,7 @@ The code in this repository is designed to detect the language of a given text. 
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/yourusername/Language_Identification.git
+   git clone https://github.com/Ali-Forootani/Language_Identification.git
 
 
 ### Installation with Conda
@@ -57,7 +57,7 @@ conda install -c conda-forge matplotlib
 
 ### Data
 
-The code expects two CSV files: `train.csv` and `Language Detection.csv`, which contain the training and testing data, respectively.
+The code expects two CSV files: `train.csv` and `Language Detection.csv`, which contain the training datasets.
 
 ### Preprocessing
 
